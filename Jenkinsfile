@@ -11,7 +11,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 echo 'Cloning code from GitHub...'
-                git branch: 'main', url: 'https://github.com/YOUR_USERNAME/my-java-app.git'
+                git branch: 'main', url: 'https://github.com/YogaAuth/My-Java-App.git'
             }
         }
 
